@@ -1,7 +1,7 @@
 # STAIR Actions
-We developed a large-scale video dataset for action recognition, named STAIR Actions.  STAIR Actions website is http://actions.stair.center .
+"STAIR Actions" is a large-scale video dataset for action recognition research.  For detailed information about STAIR Actions, please refer to http://actions.stair.center .
 
-STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is a collection of videos newly created by crowd workers for this purpose.  In the videos, various form of papers reading "Stair lab." appear, which is a sign of "video is newly-created for this purpose."  The other part is called "STAIR Actions (Y) that is a collection of metadata of YouTube videos.  STAIR Actions (Y) is provided in the form of JSON fromat.  Each metadata indicates some segment of some video capture certain action.
+STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is a collection of videos newly created by crowd workers for this purpose.  Note that various form of papers reading "Stair lab." may appear in the videos.  Indeed, this is a sign of "a video was newly-created on our demand."  The other part is called "STAIR Actions (Y) that is a collection of metadata of YouTube videos.  STAIR Actions (Y) is provided in the form of JSON format.  Each metadata indicates some segment of a video captures certain action.
 
 ## 100 actions
 
