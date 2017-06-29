@@ -19,8 +19,7 @@ CXYZ
 
 # Reference
 
-吉川友也, 竹内彰一. 家庭やオフィス内の動作認識用大規模動画データセットの構築. 2017年度人工知能学会全国大会 (JSAI2017), 2017.
-(Yuya Yoshikawa, Akikazu Takeuchi, "Constructing a Large-Scale Video Dataset for Human Action Recognition at Home and Office," Annual Meeting of the Japanese Society for Artificial Intelligence (JSAI2017), 2017.) [[PDF](https://kaigi.org/jsai/webprogram/2017/pdf/230.pdf)]
+Yuya Yoshikawa, Akikazu Takeuchi, "Constructing a Large-Scale Video Dataset for Human Action Recognition at Home and Office," Annual Meeting of the Japanese Society for Artificial Intelligence (JSAI2017), 2017.(In Japanese) [[PDF](https://kaigi.org/jsai/webprogram/2017/pdf/230.pdf)]
 
 # Terms of use
 
