@@ -5,7 +5,7 @@ STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is 
 
 ## 100 actions
 
-refer to a table of 100 actions
+refer to a [table](actionlist.csv) of 100 actions 
 
 ## note on file name format
 
