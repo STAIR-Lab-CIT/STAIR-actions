@@ -1,15 +1,20 @@
 # STAIR Actions
-"STAIR Actions" is a large-scale video dataset for action recognition research.  For detailed information about STAIR Actions, please refer to http://actions.stair.center .
+"STAIR Actions" is a large-scale video dataset for action recognition research.  It consists of 100 categories of everyday human actions, which is listed in this [table](actionlist.csv).  For each action, there 1000 videos, 10% of which are kept unpublished for possible future c ompetition.  For detailed information about STAIR Actions, please refer to http://actions.stair.center .
 
 STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is a collection of videos newly created by crowd workers for this purpose.  Note that various form of papers reading "Stair lab." may appear in the videos.  Indeed, this is a sign of "a video was newly-created on our demand."  The other part is called "STAIR Actions (Y) that is a collection of metadata of YouTube videos.  STAIR Actions (Y) is provided in the form of JSON format.  Each metadata indicates some segment of a video captures certain action.
 
-## 100 actions
+## File name format
 
-refer to a [table](actionlist.csv) of 100 actions 
+Format of a video file name is the following:
+      a<nnn>-<mmmm><source>.mp4
+where
+      <nnn> is a 3-digit number id of an action category. [actionlist.csv](actionlist.csv) shows correspondence between numbers and actions.
+      <mmmm> is a 4-digit number to discrinate individual files within a category.
+      <source> is a character, either C/X/Y/Z, each indicates the following
+         "C" means a video from STAIR Actions (C)
+         "Y" and "Z" mean a video from STAIR Actions (Y) with Creative Commons lisence
+         "X" means a video from STAIR Actions (X) with ordinary YouTube license
 
-## note on file name format
-
-CXYZ
 
 # How to get STAIR Actions
 
