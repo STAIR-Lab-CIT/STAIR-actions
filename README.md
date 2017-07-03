@@ -17,7 +17,9 @@ where  
     [source] is a character, either C/X/Y/Z, each indicates the following  
 
 > >        "C" means a video from STAIR Actions (C)  
+
 > >        "Y" and "Z" mean a video from STAIR Actions (Y) with Creative Commons lisence  
+
 > >        "X" means a video from STAIR Actions (X) with ordinary YouTube license  
 
 # How to get STAIR Actions
