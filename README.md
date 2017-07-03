@@ -5,15 +5,15 @@ STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is 
 
 ## File name format
 
-Format of a video file name is the following:/p
-      a<nnn>-<mmmm><source>.mp4/p
-where
-      <nnn> is a 3-digit number id of an action category. [actionlist.csv](actionlist.csv) shows correspondence between numbers and actions.
-      <mmmm> is a 4-digit number to discrinate individual files within a category.
-      <source> is a character, either C/X/Y/Z, each indicates the following
-         "C" means a video from STAIR Actions (C)
-         "Y" and "Z" mean a video from STAIR Actions (Y) with Creative Commons lisence
-         "X" means a video from STAIR Actions (X) with ordinary YouTube license
+Format of a video file name is the following:  
+      a<nnn>-<mmmm><source>.mp4  
+where  
+      <nnn> is a 3-digit number id of an action category. [actionlist.csv](actionlist.csv) shows correspondence between numbers and actions.  
+      <mmmm> is a 4-digit number to discrinate individual files within a category.  
+      <source> is a character, either C/X/Y/Z, each indicates the following  
+         "C" means a video from STAIR Actions (C)  
+         "Y" and "Z" mean a video from STAIR Actions (Y) with Creative Commons lisence  
+         "X" means a video from STAIR Actions (X) with ordinary YouTube license  
 
 
 # How to get STAIR Actions
