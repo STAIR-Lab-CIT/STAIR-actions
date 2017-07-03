@@ -6,6 +6,7 @@ STAIR Actions consists of two parts.  One is called "STAIR Actions (C) that is 
 ## File name format
 
 Format of a video file name is the following:  
+
      a[nnn]-[mmmm][source].mp4  
 
 where  
