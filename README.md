@@ -25,6 +25,19 @@ where  
 
 # How to get STAIR Actions
 
+We provide a download script for STAIR Actions `download.sh`, which enables you to download both STAIR Actions (C) and (Y) at one time.
+
+The download script uses the crawler included in [ActivityNet repository](https://github.com/activitynet/ActivityNet) to get YouTube videos.
+To run the crawler, you need to construct python environment, following this [README](https://github.com/activitynet/ActivityNet/blob/master/Crawler/Kinetics/README.md).
+
+After the construction of the enviromnent, 
+you can download STAIR Actions by just executing the following command.
+```
+$ bash download.sh
+```
+Finally, STAIR Actions will be created in `STAIR_Actions_[version]/` directory, where [version] is the version number of STAIR Actions to be downloaded.
+
+
 ## How to get STAIR Actions (C)
 
 ## How to get STAIR Actions (Y)
