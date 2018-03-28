@@ -16,6 +16,7 @@ Assuming you agree the terms of use,
   - (https://creativecommons.org/licenses/by/4.0/legalcode)
 * The type field of STAIR Actions medata file (.json) indicates license condition of individual movie file by one character, where C, X, Y indicate Creative Commons CC0 Public Domain Dedication, ordinary YouTube license, CC BY, respectively. 
   - (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+  
 Other code in this repository is delivered under the Apache 2 license.
 
 # Version 1.0 Release Notes
