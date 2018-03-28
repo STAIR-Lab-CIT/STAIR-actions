@@ -30,16 +30,14 @@ where  
 ## How to get STAIR Actions (Y)
 
 # Version 1.0 Release Notes
-### Files in the following lists are recommended to be removed.
-> [inappropriate.csv](inappropriate.csv)
-> [audio_problem.csv](audio_problem.csv)
-> [tooshort_toolong.csv](tooshort_toolong.csv)
+Files in the following lists are recommended to be removed.
+> [inappropriate.csv](inappropriate.csv) includes files, the contents of which is regarded as "inappropriate" by anonymous reviewers.
+> [audio_problem.csv](audio_problem.csv) includes files that have some trouble in audio channel.
+> [tooshort_toolong.csv](tooshort_toolong.csv) includes files too short (less than 3 sec) or too long (longer than 10 sec).
 
-### File in the following list are recommended to be moved to other categories.
+Some movies may be wrongly categorized.  The following list includes known mistakes with recommended categories.
 > [recommend_recategorize.csv](recommend_recategorize.csv)
 
-
-## recategorized
 
 # Reference
 
