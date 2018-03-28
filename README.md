@@ -12,12 +12,11 @@ By downloading "STAIR Actions" (the Dataset), you agree to the following terms.
 
 # License
 Assuming you agree the terms of use, 
-- STAIR Actions metadata file (.json) is licensed under Creative Commons Attribution 4.0 International license (CC BY 4.0)
+* STAIR Actions metadata file (.json) is licensed under Creative Commons Attribution 4.0 International license (CC BY 4.0)
   - (https://creativecommons.org/licenses/by/4.0/legalcode)
 * The type field of STAIR Actions medata file (.json) indicates license condition of individual movie file by one character, where C, X, Y indicate Creative Commons CC0 Public Domain Dedication, ordinary YouTube license, CC BY, respectively. 
   - (https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-  
-Other code in this repository is delivered under the Apache 2 license.
+* Other code in this repository is delivered under the Apache 2 license.
 
 # Version 1.0 Release Notes
 Files in the following lists are recommended to be removed.
