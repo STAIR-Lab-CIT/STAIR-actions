@@ -29,6 +29,18 @@ where  
 
 ## How to get STAIR Actions (Y)
 
+# Version 1.0 Release Notes
+### Files in the following lists are recommended to be removed.
+> [inappropriate.csv](inappropriate.csv)
+> [audio_problem.csv](audio_problem.csv)
+> [tooshort_toolong.csv](tooshort_toolong.csv)
+
+### File in the following list are recommended to be moved to other categories.
+> [recommend_recategorize.csv](recommend_recategorize.csv)
+
+
+## recategorized
+
 # Reference
 
 Yuya Yoshikawa, Akikazu Takeuchi, "Constructing a Large-Scale Video Dataset for Human Action Recognition at Home and Office," Annual Meeting of the Japanese Society for Artificial Intelligence (JSAI2017), 2017. (In Japanese) [[PDF](https://kaigi.org/jsai/webprogram/2017/pdf/230.pdf)]
