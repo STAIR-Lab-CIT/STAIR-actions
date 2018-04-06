@@ -42,7 +42,7 @@ you can download STAIR Actions by just executing the following command.
 ```
 $ bash download.sh
 ```
-It will takes a few days until the end of the execution. 
+It will takes a few days until the end of the execution. 
 Finally, STAIR Actions will be created in `STAIR_Actions_[version]/` directory, where [version] is the version number of STAIR Actions to be downloaded.
 Note that some video clips will not be generated because some YouTube videos cannot be downloaded ater constructing this dataset.
 
