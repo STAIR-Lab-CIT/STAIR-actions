@@ -20,7 +20,7 @@ mkdir -p $CLIPDIR
 # download original videos
 for action in $(tail -n 100 actionlist.csv | cut -f 2 -d ',')
 do
-    wget https://s3-ap-northeast-1.amazonaws.com/stair-actions-v1.0/train/${action}.zip -P $TMPDIR \
+    wget https://data.airc.aist.go.jp/stair-actions-v1.0/train/${action}.zip -P $TMPDIR \
     && unzip $TMPDIR/${action}.zip -d $DATADIR \
     && rm $TMPDIR/${action}.zip
 done
@@ -52,3 +52,6 @@ done
 
 # remove tmp dir
 rm -fr $TMPDIR
+
+# finish
+echo "Finished!"
