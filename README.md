@@ -46,9 +46,9 @@ It will takes a few days until the end of the execution.
 Finally, STAIR Actions will be created in `STAIR_Actions_[version]/` directory, where [version] is the version number of STAIR Actions to be downloaded.
 Note that some video clips will not be generated because some YouTube videos cannot be downloaded ater constructing this dataset.
 
-# Reference
-
-Yuya Yoshikawa, Akikazu Takeuchi, "Constructing a Large-Scale Video Dataset for Human Action Recognition at Home and Office," Annual Meeting of the Japanese Society for Artificial Intelligence (JSAI2017), 2017. (In Japanese) [[PDF](https://kaigi.org/jsai/webprogram/2017/pdf/230.pdf)]
+# References
+- Yuya Yoshikawa, Jiaqing Lin, Akikazu Takeuchi, "STAIR Actions: A Video Dataset of Everyday Home Actions," arXiv:1804.04326, Apr. 2018. [[PDF](https://arxiv.org/abs/1804.04326)]
+- Yuya Yoshikawa, Akikazu Takeuchi, "Constructing a Large-Scale Video Dataset for Human Action Recognition at Home and Office," Annual Meeting of the Japanese Society for Artificial Intelligence (JSAI2017), 2017. (In Japanese) [[PDF](https://kaigi.org/jsai/webprogram/2017/pdf/230.pdf)]
 
 
 
