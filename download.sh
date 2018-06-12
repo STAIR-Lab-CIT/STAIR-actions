@@ -33,13 +33,16 @@ chmod +x ActivityNet/Crawler/fetch_activitynet_videos.sh
 for type in Y X Z
 do
     cd ActivityNet/Crawler \
-    && ./fetch_activitynet_videos.sh $TOPDIR/$YOUTUBEDIR $TOPDIR/script/youtube_videos_${type}.json \
+    && ./fetch_activitynet_videos.sh $TOPDIR/$YOUTUBEDIR $TOPDIR/data/youtube_videos_${type}.json \
     && cd -
-    bash data/clipping_${type}.sh $YOUTUBEDIR $CLIPDIR
+    bash script/clipping_${type}.sh $YOUTUBEDIR $CLIPDIR
 done 
 
+wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 -O jq
+chmod +x ./jq
+
 # move youtube videos to action directories
-for action in $(tail -n 100 actionlist.csv | cut -f 2 -d ','3)
+for action in $(tail -n 100 actionlist.csv | cut -f 2 -d ',')
 do  
     for fn in $(jq .[\"$action\"].train[].name -r data/dataset_train.json)
     do
