@@ -33,9 +33,9 @@ chmod +x ActivityNet/Crawler/fetch_activitynet_videos.sh
 for type in Y X Z
 do
     cd ActivityNet/Crawler \
-    && ./fetch_activitynet_videos.sh $TOPDIR/$YOUTUBEDIR $TOPDIR/script/youtube_videos_${type}.json \
+    && ./fetch_activitynet_videos.sh $TOPDIR/$YOUTUBEDIR $TOPDIR/data/youtube_videos_${type}.json \
     && cd -
-    bash data/clipping_${type}.sh $YOUTUBEDIR $CLIPDIR
+    bash script/clipping_${type}.sh $YOUTUBEDIR $CLIPDIR
 done 
 
 # move youtube videos to action directories
