@@ -38,8 +38,11 @@ do
     bash script/clipping_${type}.sh $YOUTUBEDIR $CLIPDIR
 done 
 
+wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-linux64 -O jq
+chmod +x ./jq
+
 # move youtube videos to action directories
-for action in $(tail -n 100 actionlist.csv | cut -f 2 -d ','3)
+for action in $(tail -n 100 actionlist.csv | cut -f 2 -d ',')
 do  
     for fn in $(jq .[\"$action\"].train[].name -r data/dataset_train.json)
     do
