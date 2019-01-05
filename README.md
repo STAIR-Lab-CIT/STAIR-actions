@@ -1,5 +1,8 @@
-# STAIR Actions
+# STAIR Actions (version 1.1)
 "STAIR Actions" is a large-scale video dataset for action recognition research.  It consists of 100 categories of everyday human actions, which is listed in this [table](actionlist.csv).  For each action, there are around 1000 videos, 10% of which are kept unpublished for possible future competition.  For more detailed information, please refer to http://actions.stair.center .
+
+The current version of STAIR Actions is v1.1.
+The summary of difference between v1.0 and v1.1 is [here](data/diff_train_from_v1.0_to_v1.1.csv).
 
 # Terms of Use
 By downloading "STAIR Actions" (the Dataset), you agree to the following terms.
@@ -19,22 +22,22 @@ Assuming you agree the terms of use,
 # Release Notes
 
 ## v1.1
+- Some YouTube videos have been newly added. 
 - Videos in the following files have been removed.
-    - [inappropriate.csv](inappropriate.csv) includes files, the contents of which is regarded as "inappropriate" by anonymous reviewers.
-    - [audio_problem.csv](audio_problem.csv) includes files that have some trouble in audio channel.
-    - [tooshort_toolong.csv](tooshort_toolong.csv) includes files too short (less than 3 sec) or too long (longer than 10 sec).
+  - [inappropriate.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/inappropriate.csv) includes files, the contents of which is regarded as "inappropriate" by anonymous reviewers.
+  - [audio_problem.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/audio_problem.csv) includes files that have some trouble in audio channel.
+  - [tooshort_toolong.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/tooshort_toolong.csv) includes files too short (less than 3 sec) or too long (longer than 10 sec).
 - Videos in the following file have been recategorized.
-    - [recommend_recategorize.csv](recommend_recategorize.csv)
-- Some YouTube videos have been newly added.  
+  - [recommend_recategorize.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/recommend_recategorize.csv)
+- The summary of difference between v1.0 and v1.1 is [here](data/diff_train_from_v1.0_to_v1.1.csv).
 
 ## v1.0
-Files in the following lists are recommended to be removed.
-- [inappropriate.csv](inappropriate.csv) includes files, the contents of which is regarded as "inappropriate" by anonymous reviewers.
-- [audio_problem.csv](audio_problem.csv) includes files that have some trouble in audio channel.
-- [tooshort_toolong.csv](tooshort_toolong.csv) includes files too short (less than 3 sec) or too long (longer than 10 sec).
-
-Some movies may be wrongly categorized.  The following list includes known mistakes with recommended categories.
-- [recommend_recategorize.csv](recommend_recategorize.csv)
+- Files in the following lists are recommended to be removed.
+  - [inappropriate.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/inappropriate.csv) includes files, the contents of which is regarded as "inappropriate" by anonymous reviewers.
+  - [audio_problem.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/audio_problem.csv) includes files that have some trouble in audio channel.
+  - [tooshort_toolong.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/tooshort_toolong.csv) includes files too short (less than 3 sec) or too long (longer than 10 sec).
+- Some movies may be wrongly categorized.  The following list includes known mistakes with recommended categories.
+  - [recommend_recategorize.csv](https://github.com/STAIR-Lab-CIT/STAIR-actions/blob/v1.0/recommend_recategorize.csv)
 
 # How to get STAIR Actions v1.1
 
