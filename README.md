@@ -33,9 +33,9 @@ Some movies may be wrongly categorized.  The following list includes known mist
 We provide a download script for STAIR Actions `download.sh`, which enables you to download both STAIR Actions (C) and (Y) at one time.
 **We highly recommend that you will run the script on a storage with over 1TB space.**
 
-The download script uses the crawler included in [ActivityNet repository](https://github.com/activitynet/ActivityNet) to get YouTube videos.
+**The download script uses the crawler included in [ActivityNet repository](https://github.com/activitynet/ActivityNet) to get YouTube videos.
 To run the crawler, you need to construct python environment, following this [README](https://github.com/activitynet/ActivityNet/blob/master/Crawler/Kinetics/README.md).
-Additionally, you need to install git, [ffmpeg](https://www.ffmpeg.org/) and [jq](https://stedolan.github.io/jq/) in advance to run the download script.
+Additionally, you need to install git, [ffmpeg](https://www.ffmpeg.org/) and [jq](https://stedolan.github.io/jq/) in advance to run the download script.**
 
 After the construction of the enviromnent, 
 you can download STAIR Actions by just executing the following command.
