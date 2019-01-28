@@ -58,7 +58,7 @@ Finally, STAIR Actions will be created in `STAIR_Actions_[version]/` directory, 
 Note that some video clips will not be generated because some YouTube videos cannot be downloaded ater constructing this dataset.
 
 # Benchmark Results
-The following table shows benchmark results using our Chainer implementations of [3D-ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch).
+The following table shows benchmark results on validation set using our Chainer implementations of [3D-ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch).
 All the models started training using the provided pretrained models in [3D-ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch) which are learned on Kinetics-400 dataset.
 Then, we learned these models in two phases by changing hyperparameters.
 In the first phase, we trained the models by MomentumSGD (lr=0.001, momentum=0.9) and weight decay (rate=1e-05), and kept the model which achieved best accuracy on the validation set.
