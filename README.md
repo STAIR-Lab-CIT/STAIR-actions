@@ -57,6 +57,11 @@ It will takes a few days until the end of the execution.
 Finally, STAIR Actions will be created in `STAIR_Actions_[version]/` directory, where [version] is the version number of STAIR Actions to be downloaded.
 Note that some video clips will not be generated because some YouTube videos cannot be downloaded ater constructing this dataset.
 
+## FAQ
+### No videos in downloaded zip files
+Some actions such as walking do not have videos shot by crowdsourcing.
+Therefore, zip files for such actions contain an empty directory only.
+
 # Benchmark Results
 The following table shows benchmark results on validation set using our Chainer implementations of [3D-ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch).
 All the models started training using the provided pretrained models in [3D-ResNets](https://github.com/kenshohara/3D-ResNets-PyTorch) which are learned on Kinetics-400 dataset.
