@@ -4,6 +4,10 @@
 The current version of STAIR Actions is v1.1.
 The summary of difference between v1.0 and v1.1 is [here](data/diff_train_from_v1.0_to_v1.1.csv).
 
+## :warning: May 21, 2025: Dataset downloads currently unavailable
+**Dataset downloads are currently unavailable due to maintenance on the data server. 
+We will announce here once the service has been restored.**
+
 # Terms of Use
 By downloading "STAIR Actions" (the Dataset), you agree to the following terms.
 * You will use the Dataset only for the purpose of AI research.
